@@ -1,0 +1,92 @@
+.main{
+    background-image: url(../images/bg-repeat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .informacoes .pergunta{
+    font-weight: 900;
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+    
+}
+
+.main .informacoes{
+    text-align: left;
+    margin-right: 60px;
+}
+
+.main .informacoes .resposta{
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.main .formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    min-width: 340px;
+    min-height: 378px;
+    padding: 2rem;
+}
+
+.main .formulario .texto-input{
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 15px;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: #000000 1px solid
+}
+
+.main .formulario textarea{
+    width: 300px;
+    height: 100px;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: #000000 1px solid;
+    resize: none;
+    padding-top: 8px;
+}
+
+.main .formulario label{
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+.main .formulario .enviar{
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #3CCC87;
+    width: 300px;
+    height: 42px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.main .formulario .enviar:hover{
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+
+
+
+
+
+
