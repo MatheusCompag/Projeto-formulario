@@ -21,12 +21,16 @@
         </div>
 
         <form action="index.html" method="get" class="formulario">
-            <input type="text" placeholder="Nome Completo *" name="nome-completo" class="texto-input inputs-vazio">
-            <input type="text" placeholder="Email *" name="email" class="texto-input">
-            <input type="text" placeholder="Telefone *" name="telefone" class="texto-input" id="number">
-            <textarea name="texto" id="mensagem" placeholder="Mensagem *"></textarea>
+            <input type="text" placeholder="Nome Completo *" name="nome-completo" class="texto-input input">
+            <span class="erro-msg">Campo obrigatório</span>
+            <input type="text" placeholder="Email *" name="email" class="texto-input input">
+            <span class="erro-msg">Campo obrigatório</span>
+            <input type="text" placeholder="Telefone *" name="telefone" class="texto-input input">
+            <span class="erro-msg">Campo obrigatório</span>
+            <textarea name="texto" placeholder="Mensagem *" class="input"></textarea>
+            <span class="erro-msg">Campo obrigatório</span>
             <label>*campos obrigatórios</label>
-            <input type="submit" name="enviar" class="enviar">
+            <input type="submit" name="enviar" class="enviar" id="idBotao">
         </form>
     </main>
     
