@@ -1,26 +1,29 @@
-// const input = document.querySelectorAll(".input");
-// const botaoEnviar = document.getElementById('idBotao')
-
-// botaoEnviar.addEventListener('click,' function(event){
-//     event.preventDefault(); 
-
-//     console.log(botaoEnviar)
-
-//     validarCampos()
-// })
+const inputs = document.querySelectorAll(".input"); 
+const botaoEnviar = document.querySelector('.enviar');
+const spans = document.querySelectorAll(".erro-msg")
 
 
+botaoEnviar.addEventListener('click', (event) =>{
+    event.preventDefault()
 
-// TENTATIVA DE MUDAR AS CORES DA CAIXA DO FORMULARIO
-// input.forEach(input => {
-//     input.addEventListener('change', function() {
-//         if(input.value !== "") {
-//             input.classList.add("campo-preenchido")
-//         } else{
-//             input.classList.remove("campo-preenchido")
-//         }
 
-//     })
-// })
+    inputs.forEach(input => {
+        if(input.value !== ""){
+            input.classList.add("campo-preenchido");
+            input.classList.remove("campo-vazio");
+        
+        } else {
+            input.classList.add("campo-vazio");
+            input.classList.remove("campo-preenchido");
+        }
+    });
+
+    
+
+    
+});
+
+
+    
 
 

@@ -55,7 +55,6 @@
     font-size: 15px;
     border-radius: 5px;
     padding-left: 10px;
-    /* border: #000000 1px solid; */
     resize: none;
     padding-top: 8px;
 }
@@ -86,15 +85,20 @@
 }
 
 .erro-msg{
-    font-size: 8px;
-    font-weight: 400;
-    color: #F52E2E;
-    display: none;
-    
+  font-size: 8px;
+  font-weight: 400;
+  color: red;
+  display: none;
+
 }
+
 
 .campo-preenchido{
     border: 1px solid green
+}
+
+.campo-vazio {
+    border: 1px solid red;
 }
 
 
